@@ -1,0 +1,122 @@
+/* main */
+.flex,
+.inside_content,
+.text_wrapper,
+.inside_content2,
+.img_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_box {
+    padding: 4.8rem 6.4rem 6.4rem;
+    background: var(--white);
+    border-radius: .5rem;
+
+    box-shadow: var(--shadow);
+}
+
+.inside_content {
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.text_wrapper {
+    text-align: center;
+    gap: 1.4rem;
+}
+
+.text_wrapper h1 {
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--purple);
+
+    max-width: 25.8rem;
+}
+
+.text_wrapper p {
+    font-family: var(--dmsans);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--purple);
+}
+
+.cookie {
+    cursor: pointer;
+}
+
+.cookie:hover {
+    -webkit-animation: shake 0.4s infinite cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shake 0.4s infinite cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* second screen */
+.inside_content2 {
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.opened_title {
+    text-align: center;
+
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--purple);
+
+    max-width: 29rem;
+}
+
+.background_phrase {
+    text-align: center;
+
+    padding: 1rem;
+    background: var(--light-blue);
+
+    max-width: 27.3rem;
+    box-shadow: var(--light-shadow);
+
+    -webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.background_phrase p {
+    font-family: var(--dancingscript);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+}
+
+.img_box {
+    justify-content: center;
+    height: 20rem;
+}
+
+.inside_content2 button {
+    font-family: var(--dmsans);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+
+    background: var(--orange);
+    border-radius: .4rem;
+    padding: 1.6rem;
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.inside_content2 button:hover {
+    opacity: .7;
+}

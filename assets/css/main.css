@@ -1,0 +1,44 @@
+/* default imports */
+@import './style.css';
+@import './reset.css';
+@import './animation.css';
+
+/* default styles */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --dmsans: 'DM Sans', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+    --dancingscript: 'Dancing Script', cursive;
+    --bg: linear-gradient(45deg, #190361 0%, #B0F 100%);
+    --white: #FFFFFF;
+    --black: #000000;
+    --purple: #34355B;
+    --orange: #FF9500;
+    --light-blue: #E4EDF1;
+    --light-shadow: .2rem .2rem .2rem 0 rgba(85, 85, 85, 0.50);
+    --shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.80);
+}
+
+body {
+    font-family: var(--montserrat);
+    font-size: 1.6rem;
+    background: var(--bg);
+}
+
+/* default classes */
+.limiter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    padding: 0 2.2rem;
+}
+
+.hide {
+    display: none;
+}

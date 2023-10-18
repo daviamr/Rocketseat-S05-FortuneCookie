@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Dancing+Script&family=Montserrat:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Stage 05 | Desafio 01 - Fortune Cookie</title>
+</head>
+
+<body>
+    <div class="limiter">
+
+        <main>
+            <div class="main_box">
+                <div class="inside_content" id="closedBiscuit">
+                    <div class="text_wrapper">
+                        <h1>
+                            Qual é a sua sorte de hoje?
+                        </h1>
+                        <p>Abra o biscoito e descubra!</p>
+                    </div>
+                    <img class="cookie" src="./assets/img/cookie.svg" alt="Imagem de um biscoito da sorte"
+                        id="fortuneCookie">
+                </div>
+
+                <div class="inside_content2 hide" id="openedBiscuit">
+                    <h1 class="opened_title">
+                        Aqui está a sua sorte de hoje:
+                    </h1>
+
+                    <div class="background_phrase">
+                        <p id="phrase"></p>
+                    </div>
+
+                    <div class="img_box">
+                        <img class="cookie2" src="./assets/img/opened-cookie.png"
+                            alt="Imagem do biscoito da sorte aberto">
+                    </div>
+
+                    <button id="anotherCookie">Abrir outro biscoito</button>
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
